@@ -1,13 +1,13 @@
 body {
-    background-image: url('https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg');
+    background-image: url('https://images.pexels.com/photos/4303760/pexels-photo-4303760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    background-size: 100vw ;
     font-family: Arial;
     height: 100vh;
 }
 
 .menu{
-    background-color:white;
+    background-color: #054304;
 }
 
 .menu ul {
@@ -20,7 +20,7 @@ body {
 }
 
 a {
-    color: rgb(78, 78, 82);
+    color: white;
     text-decoration: none;
 }
 
