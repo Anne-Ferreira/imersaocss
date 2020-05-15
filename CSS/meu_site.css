@@ -1,13 +1,44 @@
+/* soft reset do css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-image: url('https://images.pexels.com/photos/4303760/pexels-photo-4303760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: linear-gradient(#c5b0b9,#e0ac22, #dc8d4b);
     background-repeat: no-repeat;
-    background-size: 100vw ;
+    background-size: 100% auto ;
     font-family: Arial;
+    height: 100%;
+    font-size: 12px;
+}
+
+/* se a tela tiver pelo menos 400 px vai carregar estes estilos */
+@media (min-width: 400px) {
+ body {
+     font-size: 14px;
+ }
+}
+
+@media (min-width: 600px) {
+ body {
+     font-size: 18px;
+ }
+}
+
+header {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu{
-    background-color: #054304;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 
 .menu ul {
@@ -19,8 +50,13 @@ body {
     list-style: none;
 }
 
+.menu a {
+   display: block;
+   padding: 15px 30px;
+}
+
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -34,6 +70,15 @@ a:hover {
     text-align: center;
 }
 
+.site-title {
+    font-size: 4em;
+}
+
 .site-subtitle {
     font-style:italic ;
+}
+
+.img-portfolio {
+    width:180px;
+    height:180px;
 }
